@@ -45,11 +45,19 @@ If you have seed data, load it into the database:
 rails db:seed
 ```
 
+### Viewing the Database
+To view the data in SQLite3, you can use a GUI tool like SQLiteStudio or access it through the SQLite3 command line. Here is how you can do it using the SQLitStudio:
+
+1. Open SQLiteStudio.
+2. Go to Database -> Add a database.
+3. Navigate to your Rails application directory and select the db/development.sqlite3 file.
+4. Once the database is added, you can browse the tables and execute SQL queries through the GUI.
+
 ### Running the Application
 Start the Rails server:
 
 ```bash
 rails server
 ```
-```
+
 You can then access the application at http://localhost:3000/users/new to create new users and test the application.
